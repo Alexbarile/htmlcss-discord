@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+
+header{
+    background-color: rgb(64,78,237);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-25{
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-50{
+    width: 50%;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.button{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+
+/* MAIN PRIMA RIGA */
+
+
+.bg-blue{
+    background-color: rgb(30, 30, 79);
+}
+
+.container-sm{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+
+.col-main{
+    width: 60%;
+    height: 350px;
+    background-color: palevioletred;
+}
+
+
+/* MAIN SECONDA RIGA */
+
+
+.col-big{
+    width: 65%;
+    background-color: lightskyblue;
+    height: 400px;
+}
+
+.col-small{
+    width: 35%;
+    background-color: pink;
+    height: 400px;
+}
+
+
+/* MAIN TERZA RIGA */
+
+.bg-gray{
+    background-color: lightgray;
+}
+
+/* MAIN QUINTA RIGA */
+
+.bg-lightgray{
+    background-color: lightgray;
+}
+
+
+.col-main-five{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.875);
+}
+
+
+.col-footer-main{
+    height: 350px;
+    background-color: rgb(248, 89, 115);
+    border: 1px solid white;
+    margin-top: 10px;
+    flex-grow: 2;
+}
+
+.col-footer{
+    height: 350px;
+    background-color: rgb(174, 169, 169);
+    border: 1px solid white;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+.hr{
+    border: 0.5px solid white;
+}
+
+.row-footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+
+.logo-end{  
+    background-color: gray;
+    padding: 7px 10px 7px 10px;
+}
+
+.buttonn{
+    background-color: gray;
+    padding: 7px 10px 7px 10px;
+}
