@@ -114,7 +114,7 @@ p{
 
 .container-main{
     width: 80%;
-    margin: 80px auto;
+    margin: 150px auto;
 }
 
 .col-big{
@@ -140,9 +140,21 @@ h2{
 
 /* MAIN TERZA RIGA */
 
-.bg-gray{
-    background-color: lightgray;
+/*
+.wave{
+    background-image: url(../img/wave.svg);
+    height: 400px;
+    opacity: 0.1;
 }
+
+.wave-inverse{
+    background-image: url(../img/wave.svg);
+    height: 400px;
+    opacity: 0.1;
+    transform: rotate(180deg);
+
+}
+*/
 
 /* MAIN QUINTA RIGA */
 
