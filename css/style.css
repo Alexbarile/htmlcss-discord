@@ -154,7 +154,6 @@ h2{
 
 
 .col-main-five{
-    width: 100%;
     text-align: center;
 }
 
@@ -207,7 +206,19 @@ select{
     background-color: rgba(0, 0, 0, 0.0);
     color: white;
     border: none;
+}
 
+.loghi-social::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+i{
+    float: left;
+    width: 30px;
+    color: white;
+    margin-top: 15px;
 }
 
 .col-footer{
@@ -226,7 +237,7 @@ select{
 .ul-footer{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
 }
 
 li{
