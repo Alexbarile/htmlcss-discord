@@ -24,7 +24,7 @@ header{
 .row{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .col-25{
@@ -61,7 +61,9 @@ ul{
 
 
 .bg-blue{
-    background-color: rgb(30, 30, 79);
+    background-image: url(../img/jumbo.png);
+    background-size: 1450px;
+    height: 540px;
 }
 
 .container-sm{
@@ -73,11 +75,39 @@ ul{
     padding: 20px;
 }
 
-
 .col-main{
     width: 60%;
-    height: 350px;
-    background-color: palevioletred;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 35px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+.mac{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.browser{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px;
 }
 
 
